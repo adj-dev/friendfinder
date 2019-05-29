@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A simple dating app mockup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adj-dev/friendfinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adj-dev/friendfinder/issues"
+  },
+  "homepage": "https://github.com/adj-dev/friendfinder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
