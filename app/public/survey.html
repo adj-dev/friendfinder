@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <!-- In-house CSS -->
+  <link rel="stylesheet" href="./styles/index.css" />
+
+  <title>Friend Finder</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Friend Finder</a>
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="/survey">Survey</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Friend Finder</h1>
+      <p class="lead">
+        Discover people who think like you do, people you can get along with.
+      </p>
+      <hr class="my-4">
+      <!-- Place a form here -->
+      <form action="/api/friends" method="POST">
+        <div class="form-group">
+          <label for="name">Enter your name:</label>
+          <input type="text" class="form-control" name="name" />
+        </div>
+        <div class="form-group">
+          <label for="image">Link to an image:</label>
+          <input type="text" class="form-control" name="image" />
+        </div>
+        <hr class="my-4">
+        <div class="form-group">
+          <label for="q1">Question 1:</label>
+          <select class="form-control" name="q1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="q2">Question 2:</label>
+          <select class="form-control" name="q2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="q3">Question 3:</label>
+          <select class="form-control" name="q3">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="q4">Question 4:</label>
+          <select class="form-control" name="q4">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="q5">Question 5:</label>
+          <select class="form-control" name="q5">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="q6">Question 6:</label>
+          <select class="form-control" name="q6">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="q7">Question 7:</label>
+          <select class="form-control" name="q7">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="q8">Question 8:</label>
+          <select class="form-control" name="q8">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="q9">Question 9:</label>
+          <select class="form-control" name="q9">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="q10">Question 10:</label>
+          <select class="form-control" name="q10">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
