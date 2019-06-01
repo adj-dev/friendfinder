@@ -8,7 +8,7 @@ const apiRoutes = require('./app/routes/apiRoutes.js');
 
 // Set up express and browser port
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 
 
