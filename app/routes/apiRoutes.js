@@ -12,7 +12,20 @@ router.get('/friends', function (req, res) {
 
 
 router.post('/friends', function (req, res) {
-  console.log(req.body);
+  let { scores } = req.body;
+  let differences = [];
+  for (let i = 0; i < friends.length; i++) {
+    let runningTotal = 0;
+    for (let j = 0; j < friends[i].scores.length; j++) {
+      runningTotal += Math.abs(friends[i].scores[j] - scores[j]);
+    }
+    differences.push(runningTotal);
+  }
+
+  let closestMatchIndex = differences.indexOf(Math.min(...differences));
+  let { name, image } = friends[closestMatchIndex];
+
+  res.send(`Closest match: ${name}`)
 });
 
 

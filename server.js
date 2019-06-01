@@ -12,6 +12,12 @@ const PORT = 3000;
 
 
 
+// Allow express to access req.body after form submission
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+
+
 // Specify the static folder -- external css files won't run without this.
 app.use(express.static(path.join(__dirname, 'app/public')));
 // Use html and api routes

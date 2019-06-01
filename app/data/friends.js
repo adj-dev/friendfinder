@@ -1,7 +1,7 @@
 module.exports = [
   {
     name: 'Amanda',
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/300',
     scores: [
       1,
       3,
@@ -17,7 +17,7 @@ module.exports = [
   },
   {
     name: 'Bill',
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/300',
     scores: [
       5,
       5,
@@ -33,7 +33,7 @@ module.exports = [
   },
   {
     name: 'Frank',
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/300',
     scores: [
       1,
       1,
@@ -49,7 +49,7 @@ module.exports = [
   },
   {
     name: 'Lizzy',
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/300',
     scores: [
       1,
       2,
@@ -65,7 +65,7 @@ module.exports = [
   },
   {
     name: 'Becca',
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/300',
     scores: [
       1,
       1,
@@ -81,7 +81,7 @@ module.exports = [
   },
   {
     name: 'Aaron',
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/300',
     scores: [
       5,
       5,
